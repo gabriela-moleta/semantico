@@ -3,20 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exemplo de HTML Semântico</title>
-    <link rel="stylesheet" href="./css/global.css">
+    <title>Sobre - Meu Site</title>
+    <link rel="stylesheet" href="../css/global.css">    
 </head>
 <body>
     <header class="site-header">
-        <h1 class="site-title">Meu Site</h1>
+        <h1 class="site-title">Sobre Nós</h1>
         <nav class="main-nav">
             <ul class="nav-list">
-                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="./pages/sobre.html" class="nav-link">Sobre</a></li>
-                <li class="nav-item"><a href="./pages/contato.html" class="nav-link">Contato</a></li>
+                <li class="nav-item"><a href="../index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="./sobre.html" class="nav-link active">Sobre</a></li>
+                <li class="nav-item"><a href="./contato.html" class="nav-link">Contato</a></li>
             </ul>
         </nav>
     </header>
 
+    <main class="main-content">
+        <article class="article">
+            <header class="article-header">
+                <h2 class="article-title"> Bem Vindo ao meu Site </h2>  
+                <p class="section-text">Texto Aleatório na aula de marcação web</p> 
+            </header>
+            <section class="article-content">
+                <h3 class="section-title">Introdução</h3>
+                <p class="section-text">Este conteudo pra introdutório do artigo</p>
+                <figure class="image-figure">
+                        <img src=".img/totoro.png" alt="Totoro" class="article-image">
+                        <figcaption class="image-caption">Totoro</figcaption>
+                    </figure>
+
+                    <audio controls class="audio-player">
+                        <source src="./media/audio.mp3"
+                        type="audio/mp3">
+                        </audio>
+                        <code>audio</code>
+               </section>
+               <footer class="article-footer">
+                <p class="section-text">Texto de Rodapé do Artigo</p>
+            </footer>
+               </article>
+               <aside class="sidebar">
+                <h2 class="sidebar-title">Informações Adicionais</h2>
+                <p class="section-text">Texto aleatorio na aula de marcação web</p>
+               </aside>
+            </main>
+            <footer class="site-footer">
+                <address class="contact-info">
+                    <p class="author-name">Autor: Gabriela Moleta</p>
+                    <p class="author-email">Email:<a href="mailto:gabriela.moleta@aluno.senai.br" class="email-link">gabriela.moleta@aluno.senai.br</a></p>
+                </address>
+                <p class="copy-info">&copy; 2024 - Todos os Direitos Reservados</p>
+            </footer>
+    
 </body>
 </html>
